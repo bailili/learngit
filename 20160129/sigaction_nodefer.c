@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <unistd.h>
+
+void sigcl(int signum,siginfo_t* p,void *p1)
+{
+	printf("the signum is %d\n",signum);
+	sleep(3);
+	printf("....signum is %d\n",signum);
+} 
+
+int main()
+{
+	struct sigaction act;
+	bzero(&act,sizeof(act));
+	act.sa_sigaction=sigcl;
+	sigset_t sa_mask;
+	sigemptyset(&sa_mask);
+	act.sa_flags=SA_SIGINFO|SA_NODEFER;
+	
+	int ret;
+	ret=sigaction(SIGINT,&act,NULL);
+	if(-1==ret)
+	{
+		perror("sigaction");
+		return -1;
+	}
+	
+	ret=sigaction(SIGQUIT,&act,NULL);
+	if(-1==ret)
+	{
+		perror("sigaction1");
+		return -1;
+	}
+	while(1);
+	return 0;
+}
+		

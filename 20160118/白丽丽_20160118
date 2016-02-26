@@ -1,0 +1,416 @@
+    1  ls
+    2  ls-t
+    3  ls
+    4  gcc -v
+    5  ls
+    6  Downloads
+    7  ls
+    8  ping www.baidu.com
+    9  vim
+   10  sudo passwd root
+   11  clean
+   12  ls
+   13  sudo apt-get install vim
+   14  su
+   15  vim
+   16  ls
+   17  su
+   18  cd ..
+   19  cd /
+   20  ls
+   21  cd home
+   22  ls
+   23  cd bailili
+   24  ls
+   25  mkdir dir1
+   26  ls
+   27  rmdir dir1
+   28  ls
+   29  mkdir 20160118
+   30  ls
+   31  cd 20160118/
+   32  ls
+   33  mkdir dir1
+   34  ls
+   35  cd ~
+   36  ls
+   37  pwd
+   38  cd -
+   39  clear
+   40  history
+   41  pwd
+   42  ls
+   43  cd 20160118/
+   44  ls
+   45  ls -l
+   46  ls -al
+   47  ls
+   48  mkdir dir2
+   49  ls
+   50  rmdir dir2
+   51  ls
+   52  touch file1
+   53  ls
+   54  ls -l
+   55  vim file1
+   56  cat file1
+   57  cp file1 file2
+   58  ls -l
+   59  cat file2
+   60  ls
+   61  cd dir1
+   62  touch file1
+   63  ls
+   64  cd ..
+   65  cd -
+   66  ls
+   67  cd dir1
+   68  ls
+   69  ls -l
+   70  cp file1 ../
+   71  ls
+   72  cd ..
+   73  ls
+   74  ls -l
+   75  ls
+   76  cd dir1
+   77  ls
+   78  ls -l
+   79  cp file1 ../file
+   80  cd ..
+   81  ls -a
+   82  ls -l
+   83  ls
+   84  mkdir dir2
+   85  ls 
+   86  cp dir2 dir1
+   87  cp -r dir2 dir1
+   88  ls
+   89  ls -l
+   90  cd /
+   91  ls -l
+   92  cd ~
+   93  ls -l
+   94  cd 20160118/
+   95  ls
+   96  cd dir2
+   97  ls
+   98  cd ..
+   99  cd dir1
+  100  ls
+  101  cat file1
+  102  ls -l
+  103  cd ..
+  104  ls -l
+  105  cd dir
+  106  cd dir1
+  107  ls -l
+  108  cd ..
+  109  mv file2 dir1
+  110  ls
+  111  cd dir1
+  112  ls
+  113  ls -l
+  114  cd ..
+  115  sl
+  116  ls
+  117  ls -l
+  118  cd dir1
+  119  ls
+  120  ls -l
+  121  rm file1
+  122  ls -l
+  123  ls
+  124  cd ..
+  125  ls -l
+  126  mv file file2
+  127  ls -l
+  128  ls
+  129  cd dir1
+  130  ls
+  131  cd ../dir2
+  132  ls
+  133  touch fie1
+  134  ls
+  135  rm dir2
+  136  cd ..
+  137  rm dir2
+  138  rm -r dir2
+  139  ls
+  140  history
+  141  ls
+  142  ls -l
+  143  vim file1
+  144  cat file1
+  145  cat 2
+  146  vim 20160118
+  147  cd ..
+  148  cat 20160118/
+  149  vim 20160118/
+  150  cd 20160118/
+  151  ls
+  152  ls -l
+  153  cat -b file1
+  154  vim file1
+  155  vim -b file1
+  156  cat -b file1
+  157  cat -E file1
+  158  cat -n file1
+  159  cat -s file1
+  160  which cat
+  161  file
+  162  file /bin/cat
+  163  cat file1
+  164  ls
+  165  ls -l
+  166  vim file2
+  167  cat file2
+  168  cat file2 >file
+  169  cat file
+  170  ls -l
+  171  vim file3
+  172  ls
+  173  echo "123"
+  174  echo "hellworld"
+  175  echo "hellworld" >file3
+  176  cat file3
+  177  ls
+  178  ls -l
+  179  ls -;
+  180  ls -l
+  181  cat file1
+  182  cat file2
+  183  cat file2 >file1
+  184  ls -l
+  185  cat file1
+  186  echo "howareyou"
+  187  echo "howareyou" >>file1
+  188  cat file1
+  189  echo "file5" >file5
+  190  cat file5
+  191  cat file3 >>file1
+  192  cat file1
+  193  cat file5 >>file1
+  194  cat file1
+  195  cat file1 file5
+  196  cat file1 file5 >file8
+  197  cat file8
+  198  ls -l
+  199  rm file8
+  200  ls
+  201  rm file
+  202  ls -l
+  203  cat file5
+  204  cat >file<file5
+  205  cat file
+  206  ls
+  207  rm file
+  208  ls
+  209  cat >file<file5
+  210  cat file5
+  211  cat >>file<<lala
+a
+b
+lala
+
+  212  cat file
+  213  ls -l
+  214  cat file2
+  215  cat file3
+  216  echo "" >file3
+  217  c
+  218  cat file3
+  219  ls -l
+  220  cat file1
+  221  head -n 3 file1
+  222  tail -n 2 file1
+  223  ls -l
+  224  ls -l |wc -l
+  225  ls |wc -l
+  226  ls
+  227  ls >file6
+  228  cat file6
+  229  cd ..
+  230  umask
+  231  ls -l
+  232  cd 2
+  233  cd 20160118/
+  234  ls -l
+  235  mkdir dir2
+  236  ls -l
+  237  umask
+  238  rm -r dir2
+  239  ls -l
+  240  umask 022
+  241  ls -l
+  242  touch file9
+  243  ls -l
+  244  mkdir dir2
+  245  ls -l
+  246  chmod -u +x file
+  247  chmod -u+x file
+  248  ls -l
+  249  chmod u+r file
+  250  ls -l
+  251  chmod u+w file
+  252  ls -l
+  253  chmod u-x file
+  254  ls -;
+  255  ls -l
+  256  chmod o-r file1
+  257  ls -l
+  258  ls
+  259  vim a.sh
+  260  ls -l
+  261  ./a.sh
+  262  chmod +x a.sh
+  263  ./a.sh
+  264  ls -l
+  265  chmod 777 file
+  266  ls -l
+  267  chmod 200 file
+  268  ls -l
+  269  chmod 644 dir2
+  270  ls -l
+  271  cd dir
+  272  chmod 755 dir2
+  273  cd dir
+  274  cd dir2
+  275  ls -l
+  276  cd ..
+  277  ls -l
+  278  cd ..
+  279  find . -name dir2 -a -type d 
+  280  find /home/bailili -name dir2 -a -type d 
+  281  cd 20160118/
+  282  ls
+  283  touch dir2
+  284  ls
+  285  ls -l
+  286  touch dir2
+  287  vim dir2
+  288  touch dir2/dir2
+  289  ls
+  290  cd dir2
+  291  ls
+  292  ls -l
+  293  cd ..
+  294  find . -name dir2 -a -type -
+  295  find . -name dir2 -a -type d
+  296  find . -name dir2
+  297  find /home/bailili -name file -o -name dir
+  298  find /home/bailili -name file* -o -name dir
+  299  find /home/bailili -name file* -o -name dir*
+  300  find /home/bailili ! -type d
+  301  find /home/bailili -name ifle[1-9]
+  302  find /home/bailili -name file[1-9]
+  303  find /home/bailili -name file*
+  304  cat /etc/passwd
+  305  find /home/bailili -uid 1000
+  306  history
+  307  ind /etc/passwd -user bailili
+  308  ind /tmp -user bailili
+  309  ind /etc/passwd -user bailili
+  310  find /etc/passwd -user bailili
+  311  ind /etc/passwd -user bailili
+  312  find /home/bailili -user root
+  313  find /home/bailili -user bailili
+  314* find /home/bailili -empt
+  315  ind /home/bailili -name file5 -exec ls -l {} \;
+  316  ind /home/bailili/20160118/ -name file5 -exec ls -l {} \;
+  317  ind /home/bailili/20160118/ -name file3 -exec ls -l {} \;
+  318  find /home/bailili/20160118/ -name file3 -exec ls -l {} \;
+  319  find /home/bailili/20160118/ -name file3 |xargs ls -l
+  320  history >白丽丽_20160118
+  321  cat 白丽丽_20160118 
+  322  vim 白丽丽_20160118 
+  323  cat 白丽丽_20160118 
+  324  ls
+  325  history >白丽丽_20160118.txt
+  326  ls
+  327  cat 白丽丽_20160118.txt 
+  328  ls
+  329  cat 20160118/
+  330  cd 20160118/
+  331  ls 
+  332  cat file
+  333  cat file1
+  334  grep ^i file1
+  335  grep ^m file1
+  336  grep file
+  337  grep he file1
+  338  grep ~ file1
+  339  grep \~ file1
+  340  grep file1 file1
+  341  grep \!$ file1
+  342  grep "!"$ file1
+  343  ls -l |grep 1&
+  344  ls -l |grep 1$
+  345  ls -l |grep -c 1$
+  346  ls -l
+  347  ls file*
+  348  mkdir dir4
+  349  cp file* dir4
+  350  rm file
+  351  cp file* dir4
+  352  cd dir4
+  353  ls
+  354  cd ..
+  355  tar cvf new.tar file*
+  356  ls -l
+  357  tar cf new1.tar file*
+  358  ls -l
+  359  echo 
+  360  echo "000" >file10
+  361  cat file10
+  362  ls
+  363  tar rf new.tar file10
+  364  ls -l
+  365  rm file*
+  366  ls
+  367  tar -xf new.tar
+  368  ls
+  369  cat file10
+  370  rm file*
+  371  ls
+  372  tar -xf new1.tar
+  373  ls
+  374  history >白丽丽新_20160119
+    1  ls
+    2  ls-t
+    3  ls
+    4  gcc -v
+    5  ls
+    6  Downloads
+    7  ls
+    8  ping www.baidu.com
+    9  vim
+   10  sudo passwd root
+   11  clean
+   12  ls
+   13  sudo apt-get install vim
+   14  su
+   15  vim
+   16  ls
+   17  su
+   18  cd 20160118/
+   19  ls
+   20  echo "1234" >test1
+   21  ls
+   22  rm test1
+   23  ls
+   24  cat new.tar 
+   25  ls -l
+   26  tar cvzf newz.tar.gz file*
+   27  ls -l
+   28  rm file*
+   29  ls
+   30  tar -xf newz.tar.gz 
+   31  ls
+   32  gzip -v new.tar 
+   33  ls
+   34  gzip -v neww.tar
+   35  ls -l
+   36  gzip -d new.tar.gz 
+   37  ls -l
+   38  history >aaa.txt

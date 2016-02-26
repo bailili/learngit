@@ -1,0 +1,38 @@
+    1  ls
+    2  ls-t
+    3  ls
+    4  gcc -v
+    5  ls
+    6  Downloads
+    7  ls
+    8  ping www.baidu.com
+    9  vim
+   10  sudo passwd root
+   11  clean
+   12  ls
+   13  sudo apt-get install vim
+   14  su
+   15  vim
+   16  ls
+   17  su
+   18  cd 20160118/
+   19  ls
+   20  echo "1234" >test1
+   21  ls
+   22  rm test1
+   23  ls
+   24  cat new.tar 
+   25  ls -l
+   26  tar cvzf newz.tar.gz file*
+   27  ls -l
+   28  rm file*
+   29  ls
+   30  tar -xf newz.tar.gz 
+   31  ls
+   32  gzip -v new.tar 
+   33  ls
+   34  gzip -v neww.tar
+   35  ls -l
+   36  gzip -d new.tar.gz 
+   37  ls -l
+   38  history >aaa.txt

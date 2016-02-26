@@ -1,0 +1,95 @@
+    1  ls
+    2  ls-t
+    3  ls
+    4  gcc -v
+    5  ls
+    6  Downloads
+    7  ls
+    8  ping www.baidu.com
+    9  vim
+   10  sudo passwd root
+   11  clean
+   12  ls
+   13  sudo apt-get install vim
+   14  su
+   15  vim
+   16  ls
+   17  su
+   18  ls
+   19  echo "1234" >test1
+   20  ls
+   21  rm test1
+   22  ls
+   23  cat new.tar 
+   24  ls -l
+   25  tar cvzf newz.tar.gz file*
+   26  ls -l
+   27  rm file*
+   28  ls
+   29  tar -xf newz.tar.gz 
+   30  ls
+   31  gzip -v new.tar 
+   32  ls
+   33  gzip -v neww.tar
+   34  ls -l
+   35  gzip -d new.tar.gz 
+   36  ls -l
+   37  history >aaa.txt
+   38  cat aaa.txt 
+   39  ls
+   40  cat aaa.txt >>白丽丽新_20160119 
+   41  cat aaa.txt 
+   42  cat 白丽丽新_20160119 
+   43  ls
+   44  mv 白丽丽新_20160119 白丽丽_20160118
+   45  ls
+   46  cat 白丽丽_20160118 
+   47  ls -la
+   48  ls -a
+   49  vim .vimrc
+   50  ls
+   51  vim .vimrc
+   52  ls
+   53  mkdir 20160119
+   54  ls
+   55  cd 20160119
+   56  vim a1
+   57  vim a.c
+   58  ./a.c
+   59  .\a.c
+   60  gcc a.c
+   61  ./a.c
+   62  ls
+   63  ./a.out 
+   64  cd ..
+   65  ls
+   66  ls -l
+   67  rm 白丽丽_20160118 白丽丽_20160118.txt 
+   68  ls -l
+   69  cd 20160119
+   70  ls -l
+   71  ls
+   72  vim gc
+   73  ls
+   74  vim gc
+   75  ls
+   76  vim a.out 
+   77  vim a.c
+   78  vim +3 a.c
+   79  vim +/printf a.c
+   80  vim a.c
+   81  sed 's/printf/puts/g' test2.c
+   82  sed 's/printf/puts/g' a.c
+   83  cat a.c
+   84  sed -i 's/printf/puts/g' a.c
+   85  vim a.c
+   86  cat a.c |sed 's/puts/printf' >c.c
+   87  cat a.c |sed 's/puts/printf/' >c.c
+   88  cat c.c
+   89  cat a.c
+   90  cat a.c |sed 's/puts/printf/'>c.c
+   91  cat a.c |sed 's/puts/ppp/'>c.c
+   92  cat ppp
+   93  cat c.c
+   94  cat a.c |sed 's/puts/ppp'>c.c
+   95  history >上午.txt
